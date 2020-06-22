@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-   int num[10] = {1,2,2,7,4,6,6,4,1,2};
+   int num[10] = {1,2,2,7,4,7,6,4,1,2};
     int i, enco;
     char ksk = 'F';
     enco = 7;
@@ -23,7 +23,7 @@ int main()
     }
     else if (ksk == 'V')
     {
-        cout << "El numero se encuentra en la posicion " << i-1 << " y se repite solo una vez." << endl << endl;
+        cout << "El numero se encuentra en la posicion " << i-1 << " y " << i+1 << " y se repite solo una vez." << endl << endl;
     }
 
     return 0;
